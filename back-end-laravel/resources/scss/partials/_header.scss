@@ -1,0 +1,19 @@
+header{
+    height: 80px;
+    font-size: 1.3rem;
+
+    a{
+        color: white !important;
+    }
+
+    .dropdown{
+      a:active, button:active{
+        background-color: white !important;
+      }
+    }
+
+    .home_link{
+        padding-left: 10px;
+        width: 130px;
+    }
+}

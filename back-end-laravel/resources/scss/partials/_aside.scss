@@ -1,0 +1,28 @@
+.main-wrapper {
+  height: calc(100vh - 80px);
+
+  .content {
+    overflow: auto;
+    width: 100%;
+  }
+}
+
+aside {
+  width: 250px;
+  font-size: 1.2rem;
+
+  a {
+    margin-top: 10px;
+    color: white;
+  }
+}
+
+input {
+  border: none;
+  outline: none
+}
+
+.thumb {
+  width: 150px;
+  margin-top: 20px;
+}

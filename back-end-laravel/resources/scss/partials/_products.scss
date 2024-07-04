@@ -1,0 +1,25 @@
+.btn-group-sm .btn {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // color: white;
+  border: 1px solid #2B3D4F !important;
+  color: black ;
+  &:hover, :active{
+    color: white !important;
+    background-color: #2B3D4F !important;
+  }
+}
+ .register-btn{
+
+  color: white !important;
+}
+
+/* Quando selezionato */
+.btn-check:checked + .btn {
+  color: white !important;
+  background-color: #2B3D4F !important;
+  border-color: #2B3D4F !important;
+}
+
